@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Titulo;
+    src: url(../Fontes/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Corpo;
+    src: url(../Fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+#Conteudo_chamativo{
+    background-image: url('../Imagens/Fundo_inicio.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+}
+
+#destaque{
+    font-size: 4rem;
+    font-family: Titulo, serif;
+    color: #BA964C;
+    font-weight: bold;
+}
+
+.normal{
+    font-size: 1.5rem;
+    font-family: Corpo, sans-serif;
+    color: #F5F5F5;
+}
+
+#Conteudo_chamativo > button{
+
+    margin-top: 50px;
+
+}
+
+#Apresentacao{
+
+    display: flex;
+    text-align: center; 
+    place-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+#Apresentacao > img{
+    
+    border-radius: 10px;
+
+}
+
+#textos{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    place-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+#textos > h1{
+    font-size: 3rem;
+    font-family: Titulo, serif;
+    color: #BA964C;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#textos > p{
+    font-size: 1.5rem;
+    font-family: Corpo, sans-serif;
+    color: #F5F5F5;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+#textos > button{
+    margin-top: 20px;
+    width: 350px;
+}
+
+#Conteudo_adicional{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    place-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#Conteudo_adicional > h1 {
+    font-size: 3rem;
+    font-family: Titulo, serif;
+    color: #BA964C;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#Conteudo_adicional > ul {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: Corpo, sans-serif;
+    color: #F5F5F5;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+#Conteudo_adicional > a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: Corpo;
+    font-size: 1rem;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+li:nth-child(1)::marker {
+  content: "✂️ ";
+}
+
+li:nth-child(2)::marker {
+  content: "🔥 ";
+}
+
+li:nth-child(3)::marker {
+  content: "🧴 ";
+}
+
+li:nth-child(4)::marker {
+  content: "⭐";
+}
+
+li {
+  display: list-item;
+  padding-left: 10px;
+  margin-bottom: 15px; 
+}

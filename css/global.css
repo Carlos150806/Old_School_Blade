@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Titulo;
+    src: url(../Fontes/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Corpo;
+    src: url(../Fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #1A1A1B;
+    color: #F5F5F5;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    place-items: center;
+    gap: 440px;
+    padding-bottom: 10px;
+}
+
+#Logotipo{
+    height: 200px;
+    width: auto;
+    margin-left: 70px;
+}
+
+button{
+    display: flex;
+    background-color: #BA964C;
+    color: #F5F5F5;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    place-items: center;
+    border-radius: 15px;
+    border: none;
+    font-family: Corpo, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+
+.zap{
+    height: 50px;
+    width: auto;
+    padding-right: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #F5F5F5;
+    margin: 15px;
+    font-family: Corpo;
+    line-height: 1.6;
+}
+
+hr{
+  border: none;          
+  height: 2px;           
+  background-color: #BA964C; 
+  padding: 0px;
+  margin: 0px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #BA964C;
+    gap: 20px;
+}
+
+#Informacoes{
+    width: 1500px;
+    height: auto;
+}
+
+#Informacoes > h1{
+    font-size: 3rem;
+    font-family: Titulo, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#Informacoes > p {
+    font-size: 1.5rem;
+    font-family: Corpo, sans-serif;
+    color: #F5F5F5;
+    max-width: 600px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#Informacoes > hr {
+    background-color: #F5F5F5;
+}
