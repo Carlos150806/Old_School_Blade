@@ -17,12 +17,16 @@ header{
     display: flex;
     text-align: center;
     place-items: center;
-    gap: 440px;
+    gap: 320px;
     padding-bottom: 10px;
 }
 
+header > nav {
+    display: flex;
+}
+
 #Logotipo{
-    height: 200px;
+    height: 150px;
     width: auto;
     margin-left: 70px;
 }
