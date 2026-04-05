@@ -83,6 +83,54 @@
 
         <h2>Profissionais</h2>
 
+        <!-- carrosel -->
+
+        <div id="Carrosel">
+          <div id="Itens">
+            <div class="Slide">
+              <img src="../Imagens/Serviços/Barbeiro1.jpg" alt="Imagem barbeiro">
+              <div class="descrição">
+
+                <h3>Matheus</h3>
+
+                <p>Consultor sênior focado em desenvolvimento de sistemas e arquitetura de dados. Sua atuação é pautada pela precisão técnica e pela busca constante por tecnologias que otimizam o dia a dia das empresas.</p>
+
+              </div>
+            </div>
+
+            <div class="Slide">
+              <img src="../Imagens/Serviços/Barbeiro2.jpg" alt="Imagem barbeira">
+              <div class="descrição">
+
+                <h3>Rebeca</h3>
+                
+                <p>Especialista em gestão estratégica com mais de 10 anos de experiência no mercado. Lidera projetos focados em inovação e eficiência operacional, transformando desafios complexos em soluções práticas.</p>
+
+              </div>
+            </div>
+
+            <div class="Slide">
+              <img src="../Imagens/Serviços/Barbeiro3.jpg" alt="Imagem  barbeiro">
+              <div class="descrição">
+
+                <h3>Gabriel</h3>
+
+                <p>Especialista em relacionamento e expansão de negócios. Com um olhar atento às tendências de mercado, atua na construção de parcerias sólidas e no suporte personalizado a cada cliente.</p>
+
+              </div>    
+            </div>
+          </div>
+
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+
+          <div id="Indicador">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        </div>
+
       </section>
 
       <!-- Rodapé padronizado -->

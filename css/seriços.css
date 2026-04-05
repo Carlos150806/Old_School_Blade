@@ -86,3 +86,73 @@ div > h3 {
     font-size: 3rem;
     font-family: Titulo, serif;
 }
+
+/*Carrosel*/
+
+#Carrosel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden; 
+    border-radius: 10px;
+}
+
+#Itens {
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.Slide {
+    min-width: 100%; 
+    position: relative;
+}
+
+.Slide img {
+    width: 100%;
+    display: block;
+}
+
+.descrição {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.3);
+    color: white;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.next { right: 0; }
+.prev { left: 0; }
+
+
+#Indicador {
+    text-align: center;
+    padding: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active { background-color: #717171; }
