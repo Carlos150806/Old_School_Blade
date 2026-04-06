@@ -95,6 +95,7 @@ div > h3 {
     margin: auto;
     overflow: hidden; 
     border-radius: 10px;
+    margin-bottom: 150px;
 }
 
 #Itens {
@@ -136,8 +137,15 @@ div > h3 {
     font-size: 20px;
 }
 
-.next { right: 0; }
-.prev { left: 0; }
+.next { 
+    right: 0; 
+    width: 45px;
+}
+
+.prev { 
+    left: 0;
+    width: 45px;
+}
 
 
 #Indicador {
