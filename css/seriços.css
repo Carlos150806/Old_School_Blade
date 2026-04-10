@@ -115,13 +115,14 @@ div > h3 {
 
 .descrição {
     position: absolute;
-    bottom: 40px;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.348);
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
+    width: 80%;
 }
 
 
@@ -163,4 +164,4 @@ div > h3 {
     cursor: pointer;
 }
 
-.dot.active { background-color: #717171; }
+.dot.active { background-color: #BA964C; }
