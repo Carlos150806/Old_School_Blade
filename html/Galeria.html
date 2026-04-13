@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+</head>
+<body>
+
+     <!-- cabeçalho padronizado -->
+
+    <header>
+
+        <img src="../Imagens/logo.png" alt="Logotipo" id="Logotipo">
+
+        <nav id="menu">
+            <a href="Index.html">Inicio</a>
+            <a href="Servicos.html">Serviços</a>
+            <a href="Galeria.html">Galeria</a>
+            <a href="Contatos.html">Contatos</a>
+        </nav>
+
+        <!-- Botão WhatsApp -->
+
+        <button id="Whats"><img src="../Imagens/whatsApp_personalizado.png" alt="Logo whatsApp_personalizado" class="zap">Agende agora</button>
+
+    </header>
+    <hr>
+
+    <main>
+
+        <!-- Tittulo e linha com curva-->
+
+        <section style="background: #1a1a1a; text-align: center; padding: 50px 0; color: white;">
+            <h1>Galeria</h1>
+            <p>Old School Blade</p>
+        
+            <svg viewBox="0 0 100 10" preserveAspectRatio="none" style="width: 100%; height: 50px; display: block;">
+              <polyline points="0,0 50,10 100,0" fill="none" stroke="#b89355" stroke-width="0.5" />
+            </svg>
+        </section>
+
+          <!-- Cortes -->
+
+            <section>
+
+                <h2>Cortes</h2>
+
+                    <div class="Carrosel">
+                        <div class="Itens">
+                                <div class="Slide">
+                                 <img src="../Imagens/Galeria/Corte1.png" alt="Corte de cabelo">
+                                </div>
+
+                        <div class="Slide">
+                            <img src="../Imagens/Galeria/Corte2.png" alt="Corte de cabelo">
+                        </div>
+
+                        <div class="Slide">
+                            <img src="../Imagens/Galeria/Corte3.jpg" alt="Corte de cabelo">
+                        </div> 
+
+                        <div class="Slide">
+                            <img src="../Imagens/Galeria/Corte4.png" alt="Corte de cabelo">
+                        </div>
+                </div>
+
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+
+                <div id="Indicador">
+                    <span class="dot active" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                
+            </div>
+
+            </section>
+
+          <!-- Barbas -->
+
+          <section>
+
+            <h2>Barbas</h2>
+
+            <div class="Carrosel">
+                <div class="Itens">
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Barba.png" alt="Barba">
+                    </div>
+
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Barba1.png" alt="Barba">
+                    </div>
+
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Barba2.png" alt="Barba">
+                    </div>
+
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Barba3.png" alt="Barba">
+                    </div>
+                </div>
+
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                
+                <div id="Indicador">
+                    <span class="dot active" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div>
+
+          </section>
+
+          <!-- Outros -->
+
+            <h2>Outros</h2>
+
+            <div class="Carrosel">
+                <div class="Itens">
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Pintura.png" alt="Pintura de cabelo">
+                    </div>
+
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Sombrancelha.png" alt="Sombrancelha">
+                    </div>
+
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Pintura1.png" alt="Pintura de cabelo">
+                    </div>
+
+                    <div class="Slide">
+                        <img src="../Imagens/Galeria/Sombrancelha1.png" alt="Sombrancelha">
+                    </div>
+                </div>
+
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                
+                <div id="Indicador">
+                    <span class="dot active" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div>
+    
+        
+
+    </main>
+
+      <!-- Rodapé padronizado -->
+
+    <footer>
+        <div id="Informacoes">
+            <h1>Old School Blade, onde a cavalaria se encontra. Venha tomar uma gelada e dar um trato no visual.</h1>
+            <hr>
+            <p>Endereço: Av. João Paulo Ablas, 1555 - Jardim Maia, Guarulhos - SP</p>
+            <hr>
+            <p>Telefone: (11) 99999-9999</p>
+            <hr>
+            <p>Instagram: @oldschoolblade</p>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14641.868003015765!2d-46.537864281042445!3d-23.443613539364357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef51eaf09ecbd%3A0x5f30af73346803ff!2sParque%20Shopping%20Maia!5e0!3m2!1spt-BR!2sbr!4v1774212781190!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+    
+
+    <script src="../Js/Galeria.js"></script>
+</body>
+</html>

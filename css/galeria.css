@@ -22,74 +22,16 @@ section > p {
     font-family: Titulo, serif;
 }
 
-/*preços*/
-
-
-#preco {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-#preco > h2 {
-    text-align: center;
-    font-size: 3rem;
+main h2 {
+    font-size: 2.5rem;
     font-family: Titulo, serif;
-}
-
-/*Primeira parte do preço*/
-
-#preco1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 200px;
-}
-
-#preco1 > img {
-
-    height: 450px;
-    width: auto;
-}
-
-/*Segunda parte do preço*/
-
-#preco2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-#preco2 > img {
-
-    height: 350px;
-    width: auto;
-}
-
-div > h3 {
-
+    margin-bottom: 70px;
     text-align: center;
-    color: #BA964C;
-    font-size: 2rem;
-}
-
-/*Profissionais*/
-
-#profissionais {
-    margin-top: 150px;
-}
-
-#profissionais > h2 {
-    text-align: center;
-    font-size: 3rem;
-    font-family: Titulo, serif;
 }
 
 /*Carrosel*/
 
-#Carrosel {
+.Carrosel {
     position: relative;
     max-width: 1000px;
     margin: auto;
@@ -98,7 +40,7 @@ div > h3 {
     margin-bottom: 150px;
 }
 
-#Itens {
+.Itens {
     display: flex;
     transition: transform 0.5s ease-in-out; 
 }
@@ -111,23 +53,6 @@ div > h3 {
 .Slide img {
     width: 100%;
     display: block;
-}
-
-.descrição {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.348);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    width: 80%;
-}
-
-.descrição p {
-    margin: 0;
-    font-size: 1.5rem;
 }
 
 .prev, .next {
@@ -151,7 +76,6 @@ div > h3 {
     left: 0;
     width: 45px;
 }
-
 
 #Indicador {
     text-align: center;
