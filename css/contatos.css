@@ -21,3 +21,36 @@ section > p {
     font-size: 1.5rem;
     font-family: Titulo, serif;
 }
+
+.divisoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  width: 100%;
+  margin: 0;
+}
+
+.linha {
+  height: 1px;
+  background-color: #BA964C;; 
+  flex-grow: 1; 
+  opacity: 0.6;
+}
+
+.tracos {
+  color: #c5a059;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px; 
+  font-size: 1.2rem;
+}
+
+#horarios {
+display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  width: 100%;
+  margin: 0;
+}
