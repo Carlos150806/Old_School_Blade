@@ -46,6 +46,13 @@ section > p {
   font-size: 1.2rem;
 }
 
+.titulo{
+  text-align: center;
+  font-family:Titulo, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
 #horarios {
 display: flex;
   align-items: center;
@@ -53,4 +60,15 @@ display: flex;
   gap: 20px; 
   width: 100%;
   margin: 0;
+}
+
+#Agende_um_horario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto{
+  height: 300px;
+  width: auto;
 }
